@@ -10,22 +10,22 @@ It is an interface that facilitates communication between two different systems 
 
 ## 💻 Code
 The variable characters has stored all the content of the response.
-```javascript
-    const [characters, setCharacter] = React.useState([]);
+```jsx
+const [characters, setCharacter] = React.useState([]);
 
-    React.useEffect(() => {
-        getData('https://rickandmortyapi.com/api/character');
-    }, []);
+React.useEffect(() => {
+    getData('https://rickandmortyapi.com/api/character');
+}, []);
 
-    async function getData(url) {
-        const fetchData = await fetch(url);
-        const data = await fetchData.json();
-        setCharacter(data.results);
-    }
+async function getData(url) {
+    const fetchData = await fetch(url);
+    const data = await fetchData.json();
+    setCharacter(data.results);
+}
 ```
 
 ## ⚡ Example
-```javascript
+```jsx
 function Characters() {
     const [characters, setCharacter] = React.useState([]);
 
@@ -48,10 +48,10 @@ function Characters() {
                         </div>
                     )
                 }
-            })
+    })
 }
 ```
 
 ### 🎈 Return to main page
-- [Click](https://github.com/elmarcz/ReactTutos/blob/master/)
+- [Click](https://github.com/elmarcz/ReactTutos)
 

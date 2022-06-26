@@ -9,7 +9,12 @@
 React is an open source Javascript library designed to create user interfaces to facilitate the development of applications using components.
 
 ## 💻 Tutorials
+- [Components](https://github.com/elmarcz/ReactTutos/blob/master/src/components.md)
+- [Props](https://github.com/elmarcz/ReactTutos/blob/master/src/props.md)
 - [Make an HTTP request](https://github.com/elmarcz/ReactTutos/blob/master/src/httpReq.md)
+
+## 🎖️ Create a project quickly
+- [Download](https://images-learncode-marc.herokuapp.com/download/Estructura%20React.rar)
 
 ### 👤 Stay in touch
 - [Website](https://elmarcz.github.io/portfolio/)
