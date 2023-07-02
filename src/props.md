@@ -17,10 +17,8 @@ In this example, the Hello component has a property called: name
 
 ## ⚡ Example
 ```jsx
-class Hello extends React.Component {
-    render(){
-        return <h1>Hello {this.props.name}</h1>
-    }
+function Hello(){
+    return <h1>Hello {this.props.name}</h1>
 }
 ```
 
